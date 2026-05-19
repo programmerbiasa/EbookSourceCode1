@@ -1,0 +1,10 @@
+-- Database : catalog_prod
+
+CREATE TABLE product (
+   rowID INT NOT NULL AUTO_INCREMENT,
+   productid VARCHAR(8) NOT NULL,
+   name VARCHAR(25) NOT NULL,
+   price DECIMAL(5,2) NOT NULL,
+   description MEDIUMTEXT NOT NULL,
+   PRIMARY KEY(rowID)
+)
