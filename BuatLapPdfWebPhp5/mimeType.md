@@ -1,3 +1,4 @@
 
 |Mime Type|Format File|
-|text/html|document HTML
+|--|-|
+|text/html|document HTML|
