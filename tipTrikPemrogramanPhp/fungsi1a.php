@@ -1,3 +1,4 @@
+<?php
 // Tanpa menggunakan fungsi
 
 /* Mendapatkan jam dari sistem dengan format 0-23 */
@@ -10,3 +11,4 @@ if ($time < 12){
   $say = "Good evening";
 }
 echo $say;
+?>
