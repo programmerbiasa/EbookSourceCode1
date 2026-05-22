@@ -1,13 +1,16 @@
 <?php
 // passing variable $str by reference
 function setHtmlTag (&$str. $tag = '<b>') {
-  $str = "<$tag>$str<$tag>";
+  $str = "<$tag>$str</$tag>";
 )
-  $myStr = 'Hello';
-  setHtmlTag($myStr);
-  echo $myStr;
 
-// Menset tag h1
-  setHtmlTag($myStr);
-  echo $myStr;
+$myStr = 'Hello';
+
+// Men-set tag bold
+setHtmlTag($myStr);
+echo $myStr;
+
+// Men-set tag h1
+setHtmlTag($myStr);
+echo $myStr;
 ?>
