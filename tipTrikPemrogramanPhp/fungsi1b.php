@@ -1,3 +1,4 @@
+<?php
 $time = date('G');
 
 function greeting ($tNow) {
@@ -9,3 +10,4 @@ function greeting ($tNow) {
 }
 // Memanggil fungsi
 echo greeting ($time);
+?>
